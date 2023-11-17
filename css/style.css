@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+body{
+    font-family: 'Alegreya', serif;
+}
+.home{
+    height:100vh; 
+    background-image: url('../images/drew-coffman-1872.jpg');
+    background-size: 100% 100%;
+}
+.layer{
+    background-color: rgba(0, 0, 0, 0.63);
+    height:100%;
+
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.main{
+    background-color:rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.logo{
+    width: 15%;
+    float: left;
+}
+.logo img{
+    width: 103%;
+}
+.links{
+   
+    float: right;
+    
+}
+.home .links li{
+    float: left;
+    margin-right: 25PX;
+    padding: 0px 10px;
+}
+.clr{
+    clear: both;
+}
+.links ul, .about-content ul{
+    list-style: none;
+}
+.links a{
+    color: #8F7854;
+    text-decoration: none;
+    font-size: 18px;
+}
+.content{
+    /* background-color: #8F7854; */
+    text-align: center;
+    transform: translateY(60%);
+    color: white;
+}
+.content h1{
+    font-size: 60px;
+    font-weight:lighter;
+    margin: 20px 0;
+}
+.content p{
+    font-size: 20px;
+    margin: 15px 0px;
+}
+.btn{
+    padding: 18px 20px;
+    border-radius: 8px ;
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin: 20px 15px;
+    font-family: 'Alegreya', serif;
+}
+.learn{
+    background-color:#8f7854be
+}
+.contact{
+    background-color:rgba(0, 0, 0, 0);
+    border:1px solid white;
+}    
+.about{
+    /* background-color: brown; */
+    padding: 70px 0px;
+}
+.about-content{
+    /* background-color: rgb(75, 42, 165); */
+    width: 50%;
+    float: left;
+    padding: 100px 0;
+}
+.about-content p,li{
+    color: #000000a9;
+}
+.about-img{
+    /* background-color: rgb(9, 63, 16); */
+    width: 50%;
+    float: left;
+}
+.about-img img{
+    width: 540px;
+    height: 550px;
+}
+.about-content h2{
+    font-size: 30px;
+    margin: 20px 0;
+}
+.about-content p,.about-content li{
+    margin: 20px 0;
+}
+i {
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    border: 1px solid rgba(128, 128, 128, 0.582);
+    padding: 10px;
+    margin-right: 10px;
+  }
+.location{
+    background-color: rgba(233, 232, 232, 0.363);
+    padding: 70px 0px;
+}
+.location-content{
+    /* background-color: rgb(75, 42, 165); */
+    width: 50%;
+    float: right;
+    padding: 100px 0px;
+    margin-right: 80px;
+}
+.location-content p{
+    color: #000000a9;
+}
+.location-img{
+    /* background-color: rgb(9, 63, 16); */
+    width: 43%;
+    float: right;
+}
+.location-img img{
+    width: 500px;
+    height: 450px;
+}
+.location-content h2{
+    font-size: 30px;
+    margin: 20px 0;
+}
+.location-content p,.location-content h2{
+    margin: 20px 0;
+}
+.header{
+    /* background-color: blue; */
+    text-align: center;
+    padding: 50px 0;
+}
+.header p{
+    color: #000000a9;
+}
+.item{
+    /* background-color: crimson; */
+    width: 33.33%;
+    text-align: center;
+    float:left;
+}
+.item img{
+width: 90%;
+}
+.item h3{
+    font-size: 22px;
+    padding: 20px 0;
+}
+.item p{
+    color: #000000a9;
+}
+.header h2{
+    font-size: 30px;
+    padding: 20px 0;
+}
+.contract{
+    background-color: rgba(233, 232, 232, 0.363);
+padding: 80px 0;
+}
+.contract i{
+    background-color:#8e7754;
+
+}
+.contract-img{
+    /* background-color: blue; */
+    float: right;
+    width: 45%;
+}
+.contract-img img{
+    width: 550px;
+    height: 450px;
+    
+}
+.contract-content{
+    /* background-color: rgb(255, 0, 0); */
+    float: left;
+    padding: 20px 0;
+}
+.contract-content h2{
+    font-size: 30px;
+    margin: 20px 0;
+}
+.contract-content h2,p,li{
+    margin: 20px 0;
+}
+.contract-content p,ul,ul li{
+    color: #000000a9;
+
+}
+.contact-details{
+    background-color: #403d38;
+}
+.contact-row{
+    width: 25%;
+    padding: 100px 10px;
+    float: left;
+}
+.contact-details .contact-row h3{
+color: white;
+}
+/* .contact-details .contact-row p, ul li{
+    color: #969590;
+} */
+.contact-details .contact-row li{
+    border-bottom:1px solid #96959018;
+}
+.contact-details .contact-row li,p,a{
+    text-decoration: none;
+    color: #969590;
+}
+.contact-details i{
+   background-color: transparent;
+   border-color: transparent;
+   padding: 0;
+}
+.footer{
+    background-color: #353330;
+    /* padding: 50px; */
+}
+.footer-content{
+    text-align: center;
+    padding: 70px 0;
+}
+.footer .footer-content i{
+background-color:rgba(128, 128, 128, 0.479);
+border: none;
+height: 40px;
+width: 40px;
+font-size: 20px;
+cursor: pointer;
+}
+.footer .footer-content .fa-facebook-f:hover{
+background-color: #3B5998;
+
+}
+.footer .footer-content .fa-google-plus-g:hover{
+background-color: #DD4B39;
+}
+.footer .footer-content .fa-linkedin-in:hover{
+background-color: #007bb5;
+}
+.footer .footer-content .fa-twitter:hover{
+background-color: #00ACED;
+}
